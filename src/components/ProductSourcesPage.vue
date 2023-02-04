@@ -30,7 +30,7 @@
           <div class="w-full flex justify-between mb-2">
             <span class="w-20">{{ product.name }}</span>
             <span class="w-20">{{ product.type }}</span>
-            <span class="w-38">{{ product.lastUpdated }}</span>
+            <span class="w-36">{{ product.lastUpdated }}</span>
             <Button class="w-20" text="Удалить"/>
           </div>
           <div class="w-full h-px bg-gray-100"></div>

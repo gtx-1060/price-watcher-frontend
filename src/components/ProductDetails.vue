@@ -30,15 +30,19 @@
         </div>
       </div>
     </div>
+    <div class="mt-2 space-x-2">
+      <Button class="inline-block" text="Открыть в браузере"/>
+    </div>
   </div>
 </template>
 
 <script>
 import IconLoading from "@/components/icons/IconLoading.vue";
+import Button from "@/components/Button.vue";
 
 export default {
   name: "ProductDetails",
-  components: {IconLoading},
+  components: {Button, IconLoading},
   props: {
     product: String,
     productSource: String,

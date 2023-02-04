@@ -11,7 +11,7 @@
     <div class="absolute bottom-5 left-4 w-full">
           <div class="bg-blue-400 w-16 h-16 rounded-full inline-block"></div>
           <span class="font-semibold absolute left-20 top-0">Name</span>
-          <Button class="absolute right-10 bottom-1" text="Выйти"/>
+          <Button class="absolute right-10 bottom-1" text="Выйти" @click="this.$notify({title: 'title', text: 'text', type: NotificationType.Message})"/>
     </div>
   </div>
 </template>

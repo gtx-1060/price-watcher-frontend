@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       notification: null
-    }
+    };
   },
   methods: {
     updateNotification(notification) {

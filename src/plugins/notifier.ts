@@ -13,7 +13,7 @@ interface Notification {
 }
 
 const DURATION = 1500;
-const INTERVAL = 500;
+const INTERVAL = 300;
 const store = {
     notifications: [],
     subscribers: [],
