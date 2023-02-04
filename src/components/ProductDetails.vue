@@ -34,8 +34,11 @@
 </template>
 
 <script>
+import IconLoading from "@/components/icons/IconLoading.vue";
+
 export default {
   name: "ProductDetails",
+  components: {IconLoading},
   props: {
     product: String,
     productSource: String,
